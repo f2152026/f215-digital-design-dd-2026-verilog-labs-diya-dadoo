@@ -18,6 +18,7 @@ module rca(
   output       cout
 );
 
+
   wire c1, c2, c3;
 
   // TODO: your four FA_Gate instances go here.
