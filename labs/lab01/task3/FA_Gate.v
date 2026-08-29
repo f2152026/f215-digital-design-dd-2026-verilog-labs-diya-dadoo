@@ -8,6 +8,7 @@ module FA_Gate(
   output sum,
   output cout
 );
+
   wire ps, pc1, pc2;
 
   xor #(2,3) (ps,  a,   b);
